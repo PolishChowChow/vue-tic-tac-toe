@@ -23,7 +23,12 @@ const onClickHandler = (_: Event) => {
   padding: 20px;
   width: 100px;
   height: 100px;
-  font-size: 20px;
+  font-size: 40px;
   border: 1px solid white;
+  transition: .1s all ease-in-out;
+}
+.square:hover{
+  background-color: #555;
+  cursor: pointer;
 }
 </style>
